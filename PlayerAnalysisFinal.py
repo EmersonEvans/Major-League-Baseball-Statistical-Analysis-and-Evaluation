@@ -1,21 +1,3 @@
-#make it so it always goes back to intro after (never ends unless you hit q)
-    #Always prompts user for again? or back to main screen 
-#introduction screen (what user sees when they open up program)
-    #selection question, what do you want to do
-        #(8) --> quit
-            #say thank you, ends program
-        #(1) --> explanation of stats
-            #explains what the stats I'm using are for both team and player numbers
-        #(2) --> player analysis
-            #conducts player analysis, asks user to input stats then gives results
-            #prints final numbers, conducts anaysis to give percentile (z-score), one for position and one for leagewide
-        #(7) --> your own projection
-            #user inputs numbers for team and free agents... etc, produces expected win total
-        #(6) --> shows the 2025 standings from my projection (organize so it looks nice)
-        #(3) --> team stats
-            #egm and aBPR for any team user inputs
-        #(4) --> 2023 numbers (player)
-        #(5) --> past years (team)
 import statistics
 import math
 
